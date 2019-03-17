@@ -56,11 +56,14 @@ p {
   margin-left: 20px;
   margin-right: 20px;
   line-height: 30px;
+  margin-top: 0px;
 }
 
 #profile-pic {
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 8px;
   float: left;
 }
 
