@@ -1,0 +1,229 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #777777;
+  background: url("../images/card-coffee-cup.jpp");
+  font-family: American Typewriter, serif;
+  background-color: black;
+}
+
+header {
+  font-family: American Typewriter, serif;
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+  background-color: black;
+  /* text-align: center; */
+}
+
+.bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main-content {
+  padding: 20px 30px;
+  margin-bottom: 5px;
+  background-color: white;
+  display: inline-block;
+  width: 70%;
+  line-height: 1.5;
+  z-index: 2;
+  margin: 5% 14%;
+}
+
+h1 {
+  color: white;
+  font-family: American Typewriter, serif;
+  margin: 20px;
+  height: 60px;
+  padding: 10px;
+  font-weight: normal;
+}
+
+h2 {
+  color: black;
+  font-family: American Typewriter, serif;
+  margin: 10px;
+  height: 40px;
+  padding: 10px;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 30px;
+}
+
+#profile-pic {
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  color: #cccccc;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 75px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#container {
+  width: 100%;
+  padding: 5px;
+}
+
+.info-box {
+  display: flex;
+  float: right;
+  position: relative;
+  top: -90px;
+  right: 30px;
+}
+
+.about {
+  color: white;
+  margin: 10px;
+  float: right;
+}
+
+.portfolio {
+  margin: 10px;
+  padding: 0px 10px;
+  float: right;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+.contact {
+  margin: 10px;
+  float: right;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: American Typewriter, serif;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+  font-family: American Typewriter, serif;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  font-family: American Typewriter, serif;
+}
+
+/* CSS FOR CONTACT PAGE */
+
+.contact-box {
+    padding: 20px 20px;
+    margin-bottom: 5px;
+    background-color: white;
+    display: inline-block;
+    width: 70%;
+    line-height: 1.5;
+    z-index: 2;
+    margin: 5% 14%;
+}
+
+label {
+    margin: 10px 20px;
+}
+
+input[type=text], textarea {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px 20px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px 20px;
+    cursor: pointer;
+  }
+
+  #message {
+      height: 200px;
+      resize: vertical;
+      overflow: auto;
+  }
+
+/* CSS FOR PORTFOLIO PAGE */
+
+h3 {
+  background-color: white;
+  font-family: American Typewriter, serif;
+  line-height: 0.5x;
+  padding: 12.5px;
+  position: relative;
+  top: 120px;
+  font-size: 18px;
+  color: black;
+  font-weight: unset;
+  text-align: center;
+}
+
+.portfolio-content {
+  padding: 20px 20px;
+  margin-bottom: 5px;
+  background-color: white;
+  display: inline-block;
+  width: 70%;
+  line-height: 1.5;
+  z-index: 2;
+  margin: 5% 14%;
+}
+
+.box-set {
+  height: 675px;
+  /* margin-bottom: 20px; */
+  padding: 10px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  /* float: left; */
+  width: 300px;
+  height: 200px;
+}
+
+.box-1 {
+  background-image: url("../images/psychic.jpg");
+}
+
+.box-2 {
+  background-image: url("../images/crystal.jpg");
+}
+
+.box-3 {
+  background-image: url("../images/psych.jpg");
+}
+
+.box-4 {
+  background-image: url("../images/gif.png");
+}
+
+.box-5 {
+  background-image: url("../images/weather.png");
+}
